@@ -1,27 +1,43 @@
-# POLIENVIOS
+# POLI-ENVIOS
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
+<p style="text-align: left;">
+    <a href="https://www.credibanco.com/"> 
+    <img src="https://www.poli.edu.co/themes/custom/ptecnico2023/logo-politecnico-grancolombiano-blue.svg" alt="Politécnico Logo " width="130" height="70" class="logo-primary">
+    </a>
+</p>
 
-## Development server
+## Pre-requisitos de instalación del proyecto:
+- entorno de desarrollo visual studio code
+- Node js: 20.17.0
+- Angular CLI: 18.2.4
+- git
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Descarga del proyecto
+1. En la ruta de su preferencia abrir la consola de git y digitar
+   el siguiente comando: git clone 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Instalación y configuración del proyecto
+1. En el entorno de desarrollo abrir la carpeta del proyecto previamente descargado
+2. Esperar que el proyecto termine de construir 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Ejecucion del proyecto local
+1. en la consola ingresa el comando  "ng serve -o" y el proyecto se abrira automatizamente en la url
+   http://localhost:4200/
+   
 
-## Running unit tests
+## Estructura
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+El proyecto esta construido bajo el framework de andular, usando como base el lenguaje de programacion typescript.<br></br>
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+<div style="text-align: left;">
+  <img src="https://s3.amazonaws.com/accredible_temp_credential_images/1573460724648430.png" height="40" alt="serenity logo"  />
+  <img src="https://static1.smartbear.co/cucumber/media/images/logos/icons/cucumber-open-icon.svg" height="40" alt="cucumber logo"  />
+  <img src="https://upload.wikimedia.org/wikipedia/zh/8/88/Java_logo.png" height="50" alt="java logo"  />
+  <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*kbSGIVukG6lL7JtAa9wiDA.png" height="50" alt="maven logo"  />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/IntelliJ_IDEA_Icon.svg" height="50" alt="maven logo"  />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg" height="50" alt="maven logo"  />
+  <img src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" height="50" alt="maven logo"  />
+</div>
