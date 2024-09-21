@@ -1,0 +1,52 @@
+.container {
+    margin: 20px; /* Establece un margen de 20 píxeles alrededor del contenedor */
+}
+
+.example-form {
+    min-width: 150px; /* Define el ancho mínimo del formulario en 150 píxeles */
+    max-width: 500px; /* Define el ancho máximo del formulario en 500 píxeles */
+    width: 100%; /* El formulario ocupará el 100% del ancho disponible */
+}
+
+.example-full-width {
+    width: 100%; /* Este elemento ocupará el 100% del ancho disponible */
+}
+
+td {
+    padding-right: 8px; /* Añade un relleno de 8 píxeles a la derecha de las celdas de la tabla */
+}
+
+.custom-label {
+    color: #f28500; /* Cambia el color del texto de la etiqueta personalizada a un tono naranja */
+}
+
+.custom-hint {
+    text-align: right; /* Alinea el texto de la pista personalizada a la derecha */
+}
+
+.custom-textarea {
+    width: 100%; /* El área de texto personalizada ocupará el 100% del ancho disponible */
+}
+
+::ng-deep .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+    background-color: #ffffff !important; /* Establece el color de fondo a blanco para los campos de texto llenos que no están deshabilitados */
+    border: 1px solid #dfdcdc !important; /* Añade un borde de 1 píxel de color gris claro */
+}
+
+::ng-deep .mat-mdc-form-field-flex {
+    background-color: #ffffff !important; /* Establece el color de fondo a blanco para el campo de formulario flexible */
+    height: 50px; /* Define la altura del campo de formulario en 50 píxeles */
+}
+
+::ng-deep .mat-select-panel .mat-option .mdc-list-item__primary-text {
+    color: #ff0000 !important; /* Cambia el color del texto principal de las opciones del panel de selección a rojo */
+}
+
+.left-group {
+    margin: 1%; /* Establece un margen de 1% alrededor del grupo a la izquierda */
+    width: 30%; /* El grupo ocupará el 30% del ancho disponible */
+}
+
+.custom-mat-form-field {
+    width: 50%; /* El campo de formulario personalizado ocupará el 50% del ancho disponible */
+}
