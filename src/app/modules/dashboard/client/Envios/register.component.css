@@ -1,0 +1,39 @@
+.container {
+    margin: 20px; /* Margen alrededor del contenedor */
+}
+
+.example-form {
+    min-width: 150px; /* Ancho mínimo del formulario */
+    max-width: 500px; /* Ancho máximo del formulario */
+    width: 100%; /* Ancho total disponible */
+}
+
+.example-full-width {
+    width: 100%; /* Ancho completo para campos del formulario */
+}
+
+td {
+    padding-right: 8px; /* Espacio a la derecha de cada celda */
+}
+
+.custom-label {
+    color: #f28500; /* Color personalizado para las etiquetas */
+}
+
+.custom-hint {
+    text-align: right; /* Alinear los textos de ayuda a la derecha */
+}
+
+.custom-textarea {
+    width: 203%; /* Ancho personalizado para el área de texto */
+}
+
+::ng-deep .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+    background-color: #ffffff !important; /* Fondo blanco para campos de texto */
+    border: 1px solid #bebdbd !important; /* Borde gris para campos de texto */
+}
+
+::ng-deep .mat-mdc-form-field-flex {
+    background-color: #ffffff !important; /* Fondo blanco para el contenedor de campos de texto */
+    height: 50px; /* Altura personalizada para los campos de texto */
+}
