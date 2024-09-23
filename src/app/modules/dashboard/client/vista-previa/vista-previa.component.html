@@ -1,0 +1,62 @@
+<div class="form-container container">
+    <!-- Contenedor principal de la forma -->
+    <mat-card>
+        <!-- Tarjeta de Angular Material para contener el formulario -->
+        <h3>Vista previa de tu envio</h3>
+        <!-- Título de la tarjeta -->
+        <form>
+            <!-- Inicio del formulario -->
+            <table class="example-full-width" cellspacing="0">
+                <!-- Tabla para organizar los campos del formulario -->
+                <tr>
+                    <td>
+                        <mat-form-field appearance="fill" class="description-field custom-textarea">
+                            <!-- Campo de formulario de Angular Material con apariencia de relleno -->
+                            <mat-label class=" custom-label">Descripción</mat-label>
+                            <!-- Etiqueta del campo de texto -->
+                            <textarea matInput rows="3"
+                                placeholder="EX. se envía iPhone 15 pro max en excelentes condiciones. El envío tarda 3 días en llegar a su destino."></textarea>
+                            <!-- Área de texto para la descripción del envío -->
+                        </mat-form-field>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <mat-form-field>
+                            <!-- Campo de formulario de Angular Material -->
+                            <mat-label class=" custom-label"> Estado de tu envio </mat-label>
+                            <!-- Etiqueta del campo de selección -->
+                            <mat-select>
+                                <!-- Campo de selección de Angular Material -->
+                                <mat-option class="options" value="uno"> En camino </mat-option>
+                                <!-- Opción de selección: En camino -->
+                                <mat-option value="dos"> En bodega </mat-option>
+                                <!-- Opción de selección: En bodega -->
+                                <mat-option value="dos"> En destino </mat-option>
+                                <!-- Opción de selección: En destino -->
+                            </mat-select>
+                        </mat-form-field>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <mat-form-field class="custom-mat-form-field">
+                            <!-- Campo de formulario de Angular Material con clase personalizada -->
+                            <mat-label class="custom-label">Datos del conductor</mat-label>
+                            <!-- Etiqueta del campo de entrada -->
+                            <input matInput placeholder="EX. Carlos Patiño, celular 3153245853 PLACA: PUT085">
+                            <!-- Campo de entrada para los datos del conductor -->
+                        </mat-form-field>
+                    </td>
+                </tr>
+                <tr>
+                    <div class="left-group">
+                        <!-- Contenedor para el botón -->
+                        <button (click)="goToEnvios()" mat-button class="user-button vista custom-focus-indicator left-group">Atras</button>
+                        <!-- Botón para regresar a la vista anterior -->
+                    </div>
+                </tr>
+            </table>
+        </form>
+    </mat-card>
+</div>

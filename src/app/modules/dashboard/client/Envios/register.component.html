@@ -1,0 +1,80 @@
+<div class="form-container container">
+    <mat-card>
+        <h3>Enviar</h3> <!-- Título del formulario -->
+        <form>
+            <table class="example-full-width" cellspacing="0"> <!-- Tabla para organizar los campos del formulario -->
+                <tr>
+                    <td>
+                        <mat-form-field class="example-full-width"> <!-- Campo de formulario para ciudad destino -->
+                            <mat-label class="custom-label custom-form-field">Ciudad Destino</mat-label>
+                            <input matInput placeholder="Ex. Bogotá"> <!-- Entrada de texto con placeholder -->
+                        </mat-form-field>
+                    </td>
+                    <td>
+                        <mat-form-field class="example-full-width"> <!-- Campo de formulario para ciudad origen -->
+                            <mat-label class="custom-label">Ciudad Origen</mat-label>
+                            <input matInput placeholder="Ex. Medellin"> <!-- Entrada de texto con placeholder -->
+                        </mat-form-field>
+                    </td>
+                    <td>
+                        <mat-form-field class="example-full-width"> <!-- Campo de formulario para valor -->
+                            <mat-label class="custom-label">$Valor</mat-label>
+                            <input matInput placeholder="Ex. $87.500"> <!-- Entrada de texto con placeholder -->
+                        </mat-form-field>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <mat-form-field class="example-full-width"> <!-- Campo de formulario para nombre del destinatario -->
+                            <mat-label class="custom-label">Nombre destinatario</mat-label>
+                            <input matInput placeholder="Ex. Mariana Romero"> <!-- Entrada de texto con placeholder -->
+                        </mat-form-field>
+                    </td>
+                    <td>
+                        <mat-form-field class="example-full-width"> <!-- Campo de formulario para nombre del remitente -->
+                            <mat-label class="custom-label">Nombre de quien envía</mat-label>
+                            <input matInput placeholder="Ex. Bogotá"> <!-- Entrada de texto con placeholder -->
+                        </mat-form-field>
+                    </td>                 
+                </tr>
+                <tr>
+                    <td>
+                        <mat-form-field class="example-full-width"> <!-- Campo de formulario para dirección del destinatario -->
+                            <mat-label class="custom-label">Dirección destinatario</mat-label>
+                            <input matInput placeholder="Ex. calle 100 con avenida quintanares"> <!-- Entrada de texto con placeholder -->
+                        </mat-form-field>
+                    </td>
+                    <td>
+                        <mat-form-field class="example-full-width"> <!-- Campo de formulario para dirección del remitente -->
+                            <mat-label class="custom-label">Dirección de quien envía</mat-label>
+                            <input matInput placeholder="Ex. las palmas"> <!-- Entrada de texto con placeholder -->
+                        </mat-form-field>
+                    </td>                 
+                </tr>
+                <tr>
+                    <td>
+                        <mat-form-field class="example-full-width"> <!-- Campo de formulario para celular del destinatario -->
+                            <mat-label class="custom-label">Celular destinatario</mat-label>
+                            <input matInput placeholder="Ex. 3058574785"> <!-- Entrada de texto con placeholder -->
+                        </mat-form-field>
+                    </td>
+                    <td>
+                        <mat-form-field class="example-full-width"> <!-- Campo de formulario para celular del remitente -->
+                            <mat-label class="custom-label">Celular de quien envía</mat-label>
+                            <input matInput placeholder="Ex. 3508965785"> <!-- Entrada de texto con placeholder -->
+                        </mat-form-field>
+                    </td>                 
+                </tr>
+                <tr>
+                    <td>
+                        <mat-form-field appearance="fill" class="description-field custom-textarea"> <!-- Campo de formulario para descripción -->
+                            <mat-label class="custom-label">Descripción</mat-label>
+                            <textarea matInput rows="3"
+                              placeholder="Se envía iPhone 15 pro max en excelentes condiciones. El envío tarda 3 días en llegar a su destino."></textarea> <!-- Área de texto con placeholder -->
+                        </mat-form-field>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </mat-card>
+</div>

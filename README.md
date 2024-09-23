@@ -22,7 +22,8 @@
 
 ## Estructura
 
-El proyecto esta construido bajo el framework de andular, usando como base el lenguaje de programacion typescript.<br></br>
+El proyecto esta construido bajo el framework de angular, usando como base el lenguaje de programacion typescript.<br></br>
+
 
 <div style="text-align: left;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg" height="40" alt="Angular"  />
