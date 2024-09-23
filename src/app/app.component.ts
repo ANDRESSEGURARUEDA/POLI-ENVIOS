@@ -38,4 +38,8 @@ export class AppComponent {
   goToVistaPrevia() {
     this.router.navigate(['/vistaPrevia']); // Método para navegar a la ruta '/vistaPrevia'
   }
+
+  goToLogin() {
+    this.router.navigate(['/login']); // Método para navegar a la ruta '/login'
+  }
 }

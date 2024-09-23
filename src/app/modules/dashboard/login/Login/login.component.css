@@ -1,0 +1,92 @@
+.container-principal {
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#bienvenida {
+  text-align: center;
+}
+
+#img_login {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+#form_login {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #449dbb;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 8pt;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media {
+  display: flex;
+  margin-left: 5%;
+}
+
+.social-media i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.acerca {
+  margin-right: 5%;
+}
+
+.acerca button {
+  background-color: transparent;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 100%;
+}
+
+.Acerca button:hover {
+  text-decoration: underline;
+}
