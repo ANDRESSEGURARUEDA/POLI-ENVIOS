@@ -9,14 +9,15 @@
       <!-- Botón para ir a la vista previa -->
       <button (click)="goToVistaPrevia()" mat-button class="user-button vista custom-focus-indicator">Vista Previa</button>
       <!-- Botón para ir a la vista previa -->
-      <button (click)="goToLogin()" mat-button class="user-button vista custom-focus-indicator">login</button>
+      
     </div>
     <!-- Título de la barra de herramientas -->
     <span class="toolbar-title">POLI-ENVIOS</span>
     <!-- Grupo de botones a la derecha -->
     <div class="right-group">
       <!-- Botón de usuario con icono de login -->
-      <button mat-button class="user-button vista">
+      <button (click)="goToLogin()" mat-button class="user-button vista custom-focus-indicator">login</button>
+      <button (click)="goToLogin()" mat-button class="user-button vista">
         <mat-icon style="color: white;">login</mat-icon>
         Usuario cliente
       </button>

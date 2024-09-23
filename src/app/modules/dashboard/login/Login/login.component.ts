@@ -14,6 +14,6 @@ export class LoginComponent {
     navigateToAcerca() {
       this.router.navigate(['/acerca']);
     }
-    imagePath = '/assets/img_pc_login.png';
+    imagePath = 'assets/inicio.png';
 }
 

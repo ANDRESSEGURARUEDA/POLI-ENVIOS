@@ -8,6 +8,10 @@
   align-items: center;
 }
 
+.formulario{
+  margin-top: 10%;
+}
+
 .row {
   width: 80%;
   display: flex;
@@ -52,41 +56,42 @@ button:hover {
   background-color: #0069d9;
 }
 
+form button:hover {
+  background-color: #0056b3;
+}
+
 .footer {
   position: absolute;
+  height: 10%;
   bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px;
+  background-color: #f1f1f1;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
-.social-media {
+.social-icons {
   display: flex;
-  margin-left: 5%;
+  justify-content: space-around;
+  width: 50%;
 }
 
-.social-media i {
-  font-size: 24px;
-  margin-right: 10px;
-  color: #fff;
+.social-icons img {
+  width: 40px;
+  height: 40px;
 }
 
-.acerca {
-  margin-right: 5%;
+.about-link {
+  margin-left: 20px;
 }
 
-.acerca button {
-  background-color: transparent;
-  color: #000000;
-  border: none;
-  cursor: pointer;
+.about-link a {
+  text-decoration: none;
   font-weight: bold;
-  font-size: 100%;
+  color: black;
 }
 
-.Acerca button:hover {
+.about-link a:hover {
   text-decoration: underline;
 }

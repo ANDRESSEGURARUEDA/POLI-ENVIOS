@@ -14,7 +14,7 @@ export const routes: Routes = [
     { path: 'vistaPrevia', component: VistaPreviaComponent }, // Ruta para el componente de vista previa
     { path: 'login', component: LoginComponent }, // Ruta para el componente de login
     { path: 'acerca', component: AcercaDe }, // Ruta para el componente de acerca de nosotros
-    { path: '', redirectTo: '/envios', pathMatch: 'full' }, // Redirección a la ruta de envíos si la ruta está vacía
+    { path: '', redirectTo: '/login', pathMatch: 'full' }, // Redirección a la ruta de envíos si la ruta está vacía
 ];
 
 // Decorador @NgModule para definir el módulo de enrutamiento
