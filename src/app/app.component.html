@@ -10,6 +10,15 @@
       <button (click)="goToVistaPrevia()" mat-button class="user-button vista custom-focus-indicator" *ngIf="!isCurrentRoute('/create-user') && !isCurrentRoute('/list-users')">Vista Previa</button>
       <!-- Botón para ir a la vista previa -->
 
+           <!-- Botón para ir a la sección de listar usuarios -->
+           <button (click)="goToListUsers()" mat-button class="administrator-button vista custom-focus-indicator" *ngIf="isCurrentRoute('/create-user') || isCurrentRoute('/list-users')">Usuarios</button>
+
+           <!-- Botón para ir a la sección de pedidos -->
+           <button (click)="goToListUsers()" mat-button class="administrator-button vista custom-focus-indicator" *ngIf="isCurrentRoute('/create-user') || isCurrentRoute('/list-users')">Pedidos</button>
+
+           <!-- Botón para ir a la sección de clientes -->
+           <button (click)="goToListUsers()" mat-button class="administrator-button vista custom-focus-indicator" *ngIf="isCurrentRoute('/create-user') || isCurrentRoute('/list-users')">Clientes</button>
+
     </div>
     <!-- Título de la barra de herramientas -->
     <span class="toolbar-title">POLI-ENVIOS</span>
@@ -22,6 +31,7 @@
         <mat-icon style="color: white;">login</mat-icon>
         Usuario cliente
       </button>
+
 
       <div *ngIf="isCurrentRoute('/create-user') || isCurrentRoute('/list-users')">
         <h3 style="color: #ff5e0f; font-weight:500;">Administrador</h3>
