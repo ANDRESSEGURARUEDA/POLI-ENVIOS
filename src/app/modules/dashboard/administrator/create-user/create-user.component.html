@@ -1,0 +1,79 @@
+<div class="form-container container">
+  <mat-card>
+    <h3>Crear usuario</h3>
+    <form>
+      <table class="example-full-width" cellspacing="0">
+
+        <tr>
+          <td>
+            <mat-form-field class="example-full-width">
+              <mat-label class="custom-label custom-form-field">Nombre completo</mat-label>
+              <input matInput placeholder="Ingrese nombre..."> <!-- Entrada de texto con placeholder -->
+            </mat-form-field>
+          </td>
+          <td>
+            <mat-form-field class="example-full-width">
+              <mat-label class="custom-label custom-form-field">Número de documento</mat-label>
+              <input matInput placeholder="Ingrese número de documento..."> <!-- Entrada de texto con placeholder -->
+            </mat-form-field>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <mat-form-field class="example-full-width">
+              <mat-label>Fecha de nacimiento</mat-label>
+              <input matInput [matDatepicker]="picker">
+              <mat-hint>MM/DD/YYYY</mat-hint>
+              <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+              <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+          </td>
+          <td>
+            <mat-form-field class="example-full-width">
+              <mat-label>Tipo de documento</mat-label>
+              <mat-select disableRipple>
+                <mat-option value="1">CC</mat-option>
+                <mat-option value="2">CE</mat-option>
+                <mat-option value="3">NIT</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <mat-form-field class="example-full-width">
+              <mat-label class="custom-label custom-form-field">Correo</mat-label>
+              <input matInput placeholder="Ingrese correo..."> <!-- Entrada de texto con placeholder -->
+            </mat-form-field>
+          </td>
+          <td>
+            <mat-form-field class="example-full-width">
+              <mat-label>Rol</mat-label>
+              <mat-select disableRipple>
+                <mat-option value="1">ADMINISTRADOR</mat-option>
+                <mat-option value="2">CLIENTE</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <mat-form-field class="example-full-width"> <!-- Campo de formulario para ciudad destino -->
+              <mat-label class="custom-label custom-form-field">Contraseña</mat-label>
+              <input matInput placeholder="Ingrese contraseña..." type="password"> <!-- Entrada de texto con placeholder -->
+            </mat-form-field>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button mat-flat-button class="btn-save">Guardar</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </mat-card>
+</div>
+

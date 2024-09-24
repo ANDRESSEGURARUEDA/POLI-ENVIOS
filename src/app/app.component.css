@@ -60,3 +60,15 @@ mat-toolbar {
 ::ng-deep .user-button.vista.mat-mdc-button .mdc-button__label {
   color: #ffffff !important; /* Color del texto blanco */
 }
+
+::ng-deep .administrator-button .mat-mdc-focus-indicator{
+  background-color: #ff5e0f !important;
+  color: white !important;
+  border-radius: 8px; /* Bordes redondeados */
+  margin: 2%;
+}
+
+::ng-deep .administrator-button .mdc-button__label {
+  color: white;
+}
+

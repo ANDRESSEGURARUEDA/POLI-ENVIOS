@@ -1,0 +1,38 @@
+::ng-deep .mdc-icon-button .mat-mdc-focus-indicator{
+  background-color: transparent !important;
+}
+
+table {
+  width: 100%;
+  margin: 0 auto;
+}
+
+h3{
+  margin: 0 auto;
+}
+
+form{
+  padding: 50px;
+}
+
+.example-full-width {
+  width: 90%; /* Hace que los campos del formulario ocupen todo el ancho del td */
+}
+
+::ng-deep .btn-save .mat-mdc-focus-indicator{
+  background-color: #0a47f1 !important;
+  color: white !important;
+  border-radius: 20px; /* Bordes redondeados */
+  margin: 2%;
+  margin: 0 auto;
+}
+
+::ng-deep .btn-save{
+  width: 200px;
+  margin: 0 auto;
+  margin-left: 20%;
+}
+
+.btn-save .mat-mdc-unelevated-button{
+  background-color: transparent !important;
+}

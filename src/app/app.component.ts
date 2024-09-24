@@ -14,8 +14,8 @@ import { MatIconModule } from '@angular/material/icon';
 @Component({
   selector: 'app-root', // Define el selector del componente
   standalone: true, // Indica que el componente es independiente
-  imports: [RouterOutlet, 
-    CommonModule, 
+  imports: [RouterOutlet,
+    CommonModule,
     ReactiveFormsModule,
     MatInputModule,
     MatButtonModule,
@@ -42,4 +42,13 @@ export class AppComponent {
   goToLogin() {
     this.router.navigate(['/login']); // Método para navegar a la ruta '/login'
   }
+
+  goToListUsers() {
+    this.router.navigate(['/list-users']); // Método para navegar a la ruta '/envios'
+  }
+
+  isCurrentRoute(ruta: string): boolean {
+    return this.router.url === ruta;
+  }
+
 }
