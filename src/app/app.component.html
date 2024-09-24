@@ -5,22 +5,28 @@
     <!-- Grupo de botones a la izquierda -->
     <div class="left-group">
       <!-- Botón para ir a la sección de envíos -->
-      <button (click)="goToEnvios()" mat-button class="user-button vista custom-focus-indicator">Envios</button>
+      <button (click)="goToEnvios()" mat-button class="user-button vista custom-focus-indicator" *ngIf="!isCurrentRoute('/create-user') && !isCurrentRoute('/list-users')">Envios</button>
       <!-- Botón para ir a la vista previa -->
-      <button (click)="goToVistaPrevia()" mat-button class="user-button vista custom-focus-indicator">Vista Previa</button>
+      <button (click)="goToVistaPrevia()" mat-button class="user-button vista custom-focus-indicator" *ngIf="!isCurrentRoute('/create-user') && !isCurrentRoute('/list-users')">Vista Previa</button>
       <!-- Botón para ir a la vista previa -->
-      
+
     </div>
     <!-- Título de la barra de herramientas -->
     <span class="toolbar-title">POLI-ENVIOS</span>
     <!-- Grupo de botones a la derecha -->
     <div class="right-group">
       <!-- Botón de usuario con icono de login -->
-      <button (click)="goToLogin()" mat-button class="user-button vista custom-focus-indicator">login</button>
-      <button (click)="goToLogin()" mat-button class="user-button vista">
+
+      <button (click)="goToLogin()" mat-button class="user-button vista custom-focus-indicator" *ngIf="!isCurrentRoute('/create-user') && !isCurrentRoute('/list-users')">
+
         <mat-icon style="color: white;">login</mat-icon>
         Usuario cliente
       </button>
+
+      <div *ngIf="isCurrentRoute('/create-user') || isCurrentRoute('/list-users')">
+        <h3 style="color: #ff5e0f; font-weight:500;">Administrador</h3>
+      </div>
+
     </div>
   </mat-toolbar>
 </div>

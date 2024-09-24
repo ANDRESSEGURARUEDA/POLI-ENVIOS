@@ -1,0 +1,39 @@
+form{
+  padding: 50px;
+}
+
+h3{
+  margin: 0 auto;
+}
+
+th, td{
+  text-align: center;
+}
+
+th{
+  color:rgb(5, 5, 87);
+  font-weight: 900;
+}
+
+td{
+  color: rgb(3, 151, 201);
+  font-weight: 500;
+}
+
+.right-group{
+  display: flex;
+  justify-content: end;
+}
+
+::ng-deep .btn-add-user .mat-mdc-focus-indicator{
+  background-color: #0a47f1 !important;
+  color: white !important;
+  border-radius: 20px; /* Bordes redondeados */
+  margin: 2%;
+  margin: 0 auto;
+  font-weight: 900;
+}
+
+table{
+  margin-top: 10px;
+}
