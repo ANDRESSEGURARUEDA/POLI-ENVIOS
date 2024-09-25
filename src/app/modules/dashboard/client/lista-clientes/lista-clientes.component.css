@@ -1,0 +1,70 @@
+/* Contenedor principal */
+.container {
+  margin: 40px auto;
+  max-width: 900px;
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+h2 {
+  text-align: center;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 20px;
+}
+
+/* Estilo de la tabla */
+.client-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* Encabezado de la tabla */
+.client-table thead {
+  background-color: #007bff;
+  color: white;
+}
+
+.client-table th {
+  padding: 12px 15px;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Filas y celdas de la tabla */
+.client-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.client-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Estado de cliente Activo */
+.activo {
+  color: green;
+  font-weight: bold;
+}
+
+/* Estado de cliente Inactivo */
+.inactivo {
+  color: red;
+  font-weight: bold;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .client-table {
+    font-size: 12px;
+  }
+
+  .client-table th, .client-table td {
+    padding: 10px 8px;
+  }
+}
