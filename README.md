@@ -6,6 +6,7 @@
     </a>
 </p>
 
+
 ## Pre-requisitos de instalación del proyecto:
 - entorno de desarrollo visual studio code
 - Node js: 20.17.0
@@ -15,6 +16,10 @@
 ## Descarga del proyecto
 1. En la ruta de su preferencia abrir la consola de git y digitar
    el siguiente comando: git clone 
+
+## Ejecucion del proyecto
+1. En la ruta donde tienes tu poryecto, abres la consola e ingresa el comando:
+   ng serve -o con este comando te abrira el poryecto en el navegador en la siguiente url http://localhost:4200/login
 
 ## Instalación y configuración del proyecto
 1. En el entorno de desarrollo abrir la carpeta del proyecto previamente descargado

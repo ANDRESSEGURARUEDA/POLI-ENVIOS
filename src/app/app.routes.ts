@@ -1,5 +1,5 @@
 // Importamos los módulos necesarios de Angular
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 // Importamos los componentes que se usarán en las rutas
@@ -9,6 +9,8 @@ import { VistaPreviaComponent } from './modules/dashboard/client/vista-previa/vi
 import { RegisterComponent } from './modules/dashboard/client/Envios/register.component';
 import { LoginComponent } from './modules/dashboard/login/Login/login.component';
 import { AcercaDe } from './modules/dashboard/acerca/acerca.component';
+import { CreateUserComponent } from './modules/dashboard/administrator/create-user/create-user.component';
+import { ListUsersComponent } from './modules/dashboard/administrator/list-users/list-users.component';
 
 // Definimos las rutas de la aplicación
 export const routes: Routes = [
@@ -18,7 +20,11 @@ export const routes: Routes = [
     { path: 'vistaPrevia', component: VistaPreviaComponent }, // Ruta para el componente de vista previa
     { path: 'login', component: LoginComponent }, // Ruta para el componente de login
     { path: 'acerca', component: AcercaDe }, // Ruta para el componente de acerca de nosotros
-    { path: '', redirectTo: '/envios', pathMatch: 'full' }, // Redirección a la ruta de envíos si la ruta está vacía
+    { path: '', redirectTo: '/login', pathMatch: 'full' }, // Redirección a la ruta de envíos si la ruta está vacía
+   // { path: '', redirectTo: '/envios', pathMatch: 'full' }, // Redirección a la ruta de envíos si la ruta está vacía
+    { path: 'create-user', component: CreateUserComponent},
+    { path: 'list-users', component: ListUsersComponent},
+
 ];
 
 // Decorador @NgModule para definir el módulo de enrutamiento
