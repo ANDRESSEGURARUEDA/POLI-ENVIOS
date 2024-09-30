@@ -25,7 +25,7 @@ export const routes: Routes = [
 
 // Decorador @NgModule para definir el módulo de enrutamiento
 @NgModule({
-    imports: [RouterModule.forRoot(routes)], // Importamos el RouterModule con las rutas definidas
+    imports: [RouterModule.forRoot(routes, {useHash: true})], // Importamos el RouterModule con las rutas definidas
     exports: [RouterModule] // Exportamos el RouterModule para que esté disponible en toda la aplicación
 })
 export class AppRoutingModule { } // Exportamos la clase AppRoutingModule
