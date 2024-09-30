@@ -1,0 +1,10 @@
+{
+  "routes": [
+    "/acerca",
+    "/create-users",
+    "/envios",
+    "/list-users",
+    "/login",
+    "/vistaPrevia"
+  ]
+}
