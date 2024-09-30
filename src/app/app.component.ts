@@ -44,9 +44,12 @@ export class AppComponent {
   }
 
   goToListUsers() {
-    this.router.navigate(['/list-users']); // Método para navegar a la ruta '/envios'
+    this.router.navigate(['/list-users']); // Método para navegar a la ruta '/list-user'
   }
 
+  goToCreateUser() {
+    this.router.navigate(['/create-users']); // Método para navegar a la ruta '/list-user'
+  }
   isCurrentRoute(ruta: string): boolean {
     return this.router.url === ruta;
   }

@@ -18,7 +18,7 @@ export const routes: Routes = [
     { path: 'acerca', component: AcercaDe }, // Ruta para el componente de acerca de nosotros
     { path: '', redirectTo: '/login', pathMatch: 'full' }, // Redirección a la ruta de envíos si la ruta está vacía
    // { path: '', redirectTo: '/envios', pathMatch: 'full' }, // Redirección a la ruta de envíos si la ruta está vacía
-    { path: 'create-user', component: CreateUserComponent},
+    { path: 'create-users', component: CreateUserComponent},
     { path: 'list-users', component: ListUsersComponent},
 
 ];

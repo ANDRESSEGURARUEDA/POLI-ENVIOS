@@ -8,10 +8,9 @@
       <button (click)="goToEnvios()" mat-button class="user-button vista custom-focus-indicator" *ngIf="!isCurrentRoute('/create-user') && !isCurrentRoute('/list-users')">Envios</button>
       <!-- Botón para ir a la vista previa -->
       <button (click)="goToVistaPrevia()" mat-button class="user-button vista custom-focus-indicator" *ngIf="!isCurrentRoute('/create-user') && !isCurrentRoute('/list-users')">Vista Previa</button>
-      <!-- Botón para ir a la vista previa -->
-
-           <!-- Botón para ir a la sección de listar usuarios -->
-           <button (click)="goToListUsers()" mat-button class="administrator-button vista custom-focus-indicator" *ngIf="isCurrentRoute('/create-user') || isCurrentRoute('/list-users')">Usuarios</button>
+     <!-- Botón para ir a la sección de listar usuarios -->
+      <button (click)="goToCreateUser()" mat-button class="user-button vista custom-focus-indicator" *ngIf="!isCurrentRoute('/create-user') && !isCurrentRoute('/list-users')">Crear Usuario</button>
+    
 
            <!-- Botón para ir a la sección de pedidos -->
            <button (click)="goToListUsers()" mat-button class="administrator-button vista custom-focus-indicator" *ngIf="isCurrentRoute('/create-user') || isCurrentRoute('/list-users')">Pedidos</button>
