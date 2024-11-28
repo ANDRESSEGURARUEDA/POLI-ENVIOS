@@ -3,6 +3,8 @@ import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 // Importamos los componentes que se usarán en las rutas
+import { ListaClientesComponent } from './modules/dashboard/client/lista-clientes/lista-clientes.component';
+import { editar_perfilComponent } from './modules/dashboard/client/editar-perfil/editar-perfil.component';
 import { VistaPreviaComponent } from './modules/dashboard/client/vista-previa/vista-previa.component';
 import { RegisterComponent } from './modules/dashboard/client/Envios/register.component';
 import { LoginComponent } from './modules/dashboard/login/Login/login.component';
@@ -12,6 +14,8 @@ import { ListUsersComponent } from './modules/dashboard/administrator/list-users
 
 // Definimos las rutas de la aplicación
 export const routes: Routes = [
+    { path: 'lista_clientes', component: ListaClientesComponent }, // Ruta para el componente de registro de envíos
+    { path: 'editar-perfil', component: editar_perfilComponent }, // Ruta para el componente de registro de envíos
     { path: 'envios', component: RegisterComponent }, // Ruta para el componente de registro de envíos
     { path: 'vistaPrevia', component: VistaPreviaComponent }, // Ruta para el componente de vista previa
     { path: 'login', component: LoginComponent }, // Ruta para el componente de login
